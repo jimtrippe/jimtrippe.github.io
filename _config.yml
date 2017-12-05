@@ -1,5 +1,65 @@
 title: orangelips blog
-description: A blog about Winter Hiking and Web Development.
+description: A blog about Winter Hiking and Web Development
+author: Jim Trippe
+url: http://orangelips.com/
+timezone: US/Mountain
 show_downloads: true
-google_analytics:
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-110673579-1
+
+# Build settings
 theme: jekyll-theme-tactile
+
+# Select which links to show in the footer
+footer-links-active:
+  rss: false
+  facebook: false
+  email: false
+  twitter: false
+  google-plus: false
+  github: true
+  reddit: false
+  linkedin: true
+  xing: false
+  stackoverflow: false
+  snapchat: false
+  instagram: false
+  youtube: false
+  spotify: false
+  telephone: false
+  steam: false
+  twitch: false
+  yelp: false
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  instagram:
+  linkedin: jimtrippe
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter:
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+  github: jimtrippe
+
+
+permalink: pretty
+
+# How many articles do you wish to appear on the front page:
+paginate: 3
+
+# Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes
+# If you use maroku (default engine) some of your generated pages may not validate or link as html5
+markdown: rdiscount
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+
+#removes local side error when initiating serve start
+github: [metadata]
