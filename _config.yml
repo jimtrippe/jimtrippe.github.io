@@ -9,7 +9,7 @@ show_downloads: true
 google_analytics: UA-110673579-1
 
 # Build settings
-theme: jekyll-theme-tactile
+theme: jekyll-theme-dinky
 
 # Select which links to show in the footer
 footer-links-active:
